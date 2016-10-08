@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.twotowerstudio.csgocompanion.AK47Fragment">
+
+    <LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ak47spray"
+            android:id="@+id/ak47Spray"
+            android:scaleType="fitXY"
+            android:layout_margin="1dp"
+            android:layout_weight="1"  />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ak47curve"
+            android:id="@+id/ak47Curve"
+            android:scaleType="fitXY"
+            android:layout_margin="1dp"
+            android:layout_weight="1"  />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
